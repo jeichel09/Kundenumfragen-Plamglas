@@ -13,6 +13,29 @@ def analyze_sentiment(text):
     """Berechnet Sentiment-Polarität (-1 bis +1)."""
     return TextBlob(text).sentiment.polarity
 
+def analyze_umfrage(input_csv, output_csv):
+    # Daten laden
+    df = pd.read_csv(input_csv)
+    
+    # 1. Numerische Bewertungen aggregieren (ohne Freitext)
+    numeric_data = df[df['kategorie'] != 'feedback']
+    report = numeric_data.groupby('kategorie')['bewertung'].mean().round(2)
+    
+    # 2. Freitext-Kommentare analysieren
+    feedbacks = df[df['kategorie'] == 'feedback']
+    feedbacks['sentiment'] = feedbacks['kommentar'].apply(lambda x: TextBlob(x).sentiment.polarity)
+    
+    # Bericht speichern
+    report.to_csv(output_csv)
+    print(f"Analysebericht gespeichert unter: {output_csv}")
+
+    # Optional: Sentiment-Plot
+    feedbacks['sentiment'].plot(kind='hist', title='Sentiment der Freitext-Kommentare')
+    plt.savefig('sentiment_histogram.png')
+
+# Beispielaufruf
+analyze_umfrage('umfrage_daten.csv', 'umfrage_analyse.csv')
+
 def generate_report(df, output_file):
     """Erstellt einen Analysebericht mit Visualisierungen."""
     # Sentiment-Kategorien
