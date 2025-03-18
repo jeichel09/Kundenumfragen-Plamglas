@@ -1,0 +1,8 @@
+umfrage_id,kategorie,bewertung,kommentar
+100,gesamt,4,""
+100,lieferzeit,5,""
+100,digital_tools,3,""
+100,feedback,-1,"Tolle Produkte, aber die App könnte benutzerfreundlicher sein."
+101,gesamt,2,""
+101,lieferzeit,2,"Lieferung verspätet"
+101,digital_tools,1,""
