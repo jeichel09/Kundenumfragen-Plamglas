@@ -1,0 +1,39 @@
+Kundenzufriedenheitsumfrage – Plamglas GmbH
+(Anpassbar für E-Mail/Vertriebsteam)
+
+Einleitung:
+
+Sehr geehrte/r Kundin/Kunde,
+um unsere Produkte/Dienstleistungen kontinuierlich zu verbessern, freuen wir uns über Ihr Feedback. Die Umfrage dauert 3 Minuten und ist anonym. Als Dankeschön verlosen wir unter allen Teilnehmenden einen €50-Gutschein.
+Herzlichen Dank für Ihre Unterstützung!
+Ihr Team der Plamglas GmbH
+
+1. Allgemeine Zufriedenheit
+Wie zufrieden sind Sie insgesamt mit Plamglas?
+🔘 Sehr zufrieden (5) 🔘 Zufrieden (4) 🔘 Neutral (3) 🔘 Unzufrieden (2) 🔘 Sehr unzufrieden (1)
+
+Wie bewerten Sie folgende Aspekte? (Skala 1–5)
+
+Lieferzeit	Produktqualität	Kundenservice	Digitale Tools (z. B. Bestellportal)
+2. Technik & Digitalisierung
+Nutzen Sie unsere digitalen Services (z. B. Online-Bestellung, Dashboard)?
+🔘 Ja, regelmäßig 🔘 Gelegentlich 🔘 Nie
+
+Wie einfach fanden Sie die Bedienung unserer digitalen Tools?
+🔘 Sehr einfach 🔘 Einfach 🔘 Neutral 🔘 Kompliziert 🔘 Sehr kompliziert
+
+Welche Funktion wünschen Sie sich dringend?
+🔘 Echtzeit-Lieferstatus 🔘 KI-gestützte Produktempfehlungen 🔘 Mobile App 🔘 Sonstiges: ________
+
+3. Freitext-Feedback
+Was hat Sie besonders positiv überrascht?
+___________________________
+
+Wo sehen Sie Verbesserungspotenzial?
+___________________________
+
+4. Demografie
+Ihre Branche: ________
+
+Unternehmensgröße: 🔘 1–10 MA 🔘 11–50 MA 🔘 51–200 MA 🔘 200+ MA
+
