@@ -18,6 +18,3 @@ pip install -r requirements.txt
 python feedback_analysis.py --input [PATH_TO_CSV] --output [REPORT_FILE]
 
 
-## Sample output
-
-![Sentiment distribution](sentiment_distribution.png)
